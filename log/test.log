@@ -1,0 +1,499 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (19.8ms)[0m  [1mBEGIN[0m
+  [1m[35m (20.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-13 20:26:05 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (5.5ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 191.9ms (Views: 43.4ms | ActiveRecord: 144.5ms)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-13 20:28:22 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (10.3ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 109.7ms (Views: 53.0ms | ActiveRecord: 52.7ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-13 20:28:46 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.5ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 109.4ms (Views: 71.6ms | ActiveRecord: 34.1ms)
+  [1m[36mMarket Load (0.4ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-13 20:38:36 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (30.5ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 241.4ms (Views: 122.7ms | ActiveRecord: 114.8ms)
+  [1m[36mMarket Load (0.5ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 13:55:59 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (11.7ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 139.6ms (Views: 69.5ms | ActiveRecord: 66.7ms)
+  [1m[36mMarket Load (0.4ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 13:55:59 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.3ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.8ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 13:56:25 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.3ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 92.0ms (Views: 78.5ms | ActiveRecord: 10.6ms)
+  [1m[36mMarket Load (0.4ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 13:56:26 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.3ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.7ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 13:57:09 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.3ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 34.0ms (Views: 24.2ms | ActiveRecord: 7.9ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 13:57:09 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.3ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3.7ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+  [1m[35mMarket Load (0.2ms)[0m  SELECT "markets".* FROM "markets" 
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:04:40 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.5ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 89.1ms (Views: 61.0ms | ActiveRecord: 24.3ms)
+Started GET "/markets/show" for 127.0.0.1 at 2014-01-14 14:04:40 -0500
+Processing by MarketsController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 404 Not Found in 0.4ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:04:40 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.2ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.7ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+Started GET "/markets/show" for 127.0.0.1 at 2014-01-14 14:04:40 -0500
+Processing by MarketsController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 404 Not Found in 0.3ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:04:40 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.4ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3.2ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+Started GET "/markets/show" for 127.0.0.1 at 2014-01-14 14:04:40 -0500
+Processing by MarketsController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 404 Not Found in 0.4ms
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:05:28 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.3ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 66.4ms (Views: 55.3ms | ActiveRecord: 8.7ms)
+  [1m[36mMarket Load (0.4ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:05:28 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.3ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.5ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:07:59 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (20.3ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 108.3ms (Views: 40.5ms | ActiveRecord: 64.3ms)
+  [1m[36mMarket Load (0.4ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:07:59 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.4ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.9ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:07:59 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.2ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.8ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+Started GET "/markets/show" for 127.0.0.1 at 2014-01-14 14:07:59 -0500
+Processing by MarketsController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 404 Not Found in 0.5ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:16:28 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (20.4ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 174.2ms (Views: 83.8ms | ActiveRecord: 86.6ms)
+  [1m[36mMarket Load (0.4ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:16:28 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.2ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.7ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:16:28 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.2ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.6ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:18:01 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (15.1ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 150.4ms (Views: 88.0ms | ActiveRecord: 59.1ms)
+  [1m[36mMarket Load (0.4ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:18:01 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.4ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3.0ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:18:01 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.2ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.8ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:18:27 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (12.2ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 141.1ms (Views: 74.0ms | ActiveRecord: 63.2ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:18:27 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.2ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.8ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:18:27 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.4ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3.1ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+  [1m[36mMarket Load (0.2ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:20:21 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.6ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 89.4ms (Views: 77.2ms | ActiveRecord: 9.6ms)
+  [1m[36mMarket Load (0.3ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:20:21 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.5ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.5ms (Views: 1.2ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:20:21 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.2ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.9ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:25:57 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (8.0ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 144.6ms (Views: 92.0ms | ActiveRecord: 50.0ms)
+  [1m[36mMarket Load (0.3ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:25:57 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.3ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.7ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:25:57 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.3ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.4ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:28:25 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (18.2ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 134.0ms (Views: 56.0ms | ActiveRecord: 74.2ms)
+  [1m[36mMarket Load (0.4ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:28:25 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.3ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.0ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:28:25 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.2ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.8ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:28:46 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (33.0ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 134.3ms (Views: 45.7ms | ActiveRecord: 85.0ms)
+  [1m[36mMarket Load (0.4ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:28:46 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.3ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.1ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:28:46 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.2ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.7ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:30:28 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (10.8ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 91.1ms (Views: 44.0ms | ActiveRecord: 44.4ms)
+  [1m[36mMarket Load (0.4ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:30:28 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.3ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.0ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:30:28 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.4ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.7ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:34:21 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (11.8ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 126.5ms (Views: 61.7ms | ActiveRecord: 61.1ms)
+  [1m[36mMarket Load (0.4ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:34:21 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.4ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.9ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:34:21 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.2ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.7ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:35:54 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (7.8ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 99.2ms (Views: 36.8ms | ActiveRecord: 58.5ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:35:54 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.2ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.8ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:35:54 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.2ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.7ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+  [1m[36mMarket Load (0.1ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:40:26 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (12.8ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 99.2ms (Views: 39.2ms | ActiveRecord: 56.0ms)
+  [1m[36mMarket Load (0.4ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:40:26 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.5ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3.1ms (Views: 1.8ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:40:26 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.3ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.5ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:42:04 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (26.0ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 215.5ms (Views: 130.1ms | ActiveRecord: 82.5ms)
+  [1m[36mMarket Load (0.4ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:42:05 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.2ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.8ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:42:05 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.2ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.6ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:44:46 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (10.9ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 99.2ms (Views: 42.3ms | ActiveRecord: 52.9ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:44:46 -0500
+Processing by MarketsController#index as HTML
+  [1m[36mMarket Load (0.4ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3.1ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:44:46 -0500
+Processing by MarketsController#index as HTML
+  [1m[35mMarket Load (0.3ms)[0m  SELECT "markets".* FROM "markets" 
+  Rendered markets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.4ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+  [1m[36mMarket Load (0.2ms)[0m  [1mSELECT "markets".* FROM "markets" [0m
+  [1m[35m (0.1ms)[0m  ROLLBACK

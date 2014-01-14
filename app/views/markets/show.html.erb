@@ -1,0 +1,7 @@
+<h1><%= @market.name %></h1>
+<% @market.startups.size.times do |i| %>
+
+<!-- This needs to be logo_url, not company_url -->
+<p><a href="/startups/<%= @market.startups[i].id %>"><%= @market.startups[i].name %></a></p>
+  
+<% end %>

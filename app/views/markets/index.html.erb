@@ -1,0 +1,9 @@
+<form action='/markets/show' method='get'>
+<select name="market_id">
+  <% @markets.each do |name| %>
+  <option value="<%= name.id %>"><%= name.name %></option>
+  <% end %>
+</select>
+<button id="go">Go</button>
+
+</form>
