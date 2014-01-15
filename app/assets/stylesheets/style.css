@@ -8,3 +8,25 @@ select {
 .top-bar ul {
   font-size: 20px;
 }
+
+.name {
+  font-size: 50px;
+}
+
+.logos {
+  float: left;
+  height: 280px;
+  width: 300px;
+  text-align: center;
+  margin: 20px;
+}
+
+.logo_image {
+  width: 60%;
+  height: 50%;
+  margin-bottom: 10px;
+}
+
+.endorse {
+  margin-top: 20px;
+}

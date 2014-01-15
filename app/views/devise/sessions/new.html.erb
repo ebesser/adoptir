@@ -1,6 +1,11 @@
-<h2>Sign in</h2>
-
-<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+<div class="row">
+  <div class="small-8 small-centered columns"> 
+    <h2>Sign In</h2>
+  </div>
+</br>
+  <div class="row">
+    <div class="small-7 small-centered columns"> 
+ <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
   <div><%= f.label :email %><br />
   <%= f.email_field :email, :autofocus => true %></div>
 
@@ -11,7 +16,12 @@
     <div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
   <% end -%>
 
-  <div><%= f.submit "Sign in" %></div>
+  <div><%= f.button :"Sign In" %></div>
 <% end %>
+  
+  <h6>Need to Register? <%= render "devise/shared/links" %></h6>
+  </div>    
 
-<%= render "devise/shared/links" %>
+
+</div>
+</div>
