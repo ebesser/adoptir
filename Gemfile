@@ -17,6 +17,7 @@ gem 'rspec'
 gem 'capybara'
 gem 'rspec-rails'
 gem 'devise'
+gem 'foundation-rails'
 
 
 # Gems used only for assets and not required

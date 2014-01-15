@@ -1,9 +1,16 @@
-<form action='/markets/show' method='get'>
-<select name="market_id">
-  <% @markets.each do |name| %>
-  <option value="<%= name.id %>"><%= name.name %></option>
-  <% end %>
-</select>
-<button id="go">Go</button>
+<div class ="row">
+  <h1 class="small-10 large-centered columns">Select An Industry You're Interested In</h1>
+</div>
 
-</form>
+<div class ="row">
+    <div class="large-12 columns">
+      <form action='/markets/show' method='get'>
+      <select name="market_id">
+        <% @markets.each do |name| %>
+        <option value="<%= name.id %>"><%= name.name %></option>
+        <% end %>
+      </select>
+     <div class="small-2 large-centered columns"><button id="go">Go</button></div>
+      </form>
+    </div>
+  </div>
