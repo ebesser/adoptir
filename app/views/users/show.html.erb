@@ -1,1 +1,25 @@
-<%= current_user.name  %>
+<div class="row">
+  <div class="large-1 columns"></div>
+  <h1 class="large-12 columns">Your Endorsements</h1>
+</div>
+</br>
+
+<div class="row">
+  <div class="large-4 columns">
+    <img class="user_picture" src="<%= current_user.picture %>">
+   <h5>Email: <%= current_user.email %></h5>
+    <h5>Works @<%= current_user.work %></h5>
+  </div>
+      <div class="large-8 columns">
+        <% current_user.startups.size.times do |i| %>
+          <% if current_user.startups[i].name == nil %>
+          <% else %>
+        <div class="user_endorsement_logo">
+          <a href="/startups/<%= current_user.startups[i].id %>"><img class="logo_image" src="<%= current_user.startups[i].logo_url %>"></a></br>
+          <a href="/startups/<%= current_user.startups[i].id %>"><%= current_user.startups[i].name %></a>
+         </div>
+          <% end %>
+        <% end %>
+       </div>
+  </div>
+

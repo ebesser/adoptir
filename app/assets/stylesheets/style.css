@@ -30,3 +30,18 @@ select {
 .endorse {
   margin-top: 20px;
 }
+
+.user_picture {
+  height: 300px;
+  width: 250px;
+}
+
+.user_endorsement_logo {
+  float: left;
+  height: 200px;
+  width: 180px;
+  text-align: center;
+  margin: 20px;
+  margin-left: 0;
+
+}
