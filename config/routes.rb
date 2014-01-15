@@ -13,5 +13,8 @@ AdoptirV1::Application.routes.draw do
    # , as: "endorsements"
 
 
+   post '/startup_users/create/:id', to: 'startup_users#create'
+
+
 
 end

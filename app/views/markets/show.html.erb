@@ -1,7 +1,14 @@
 <h1><%= @market.name %></h1>
 <% @market.startups.size.times do |i| %>
-
+<% if @market.startups[i].name == nil %>
+<% else %>
 <!-- This needs to be logo_url, not company_url -->
-<p><a href="/startups/<%= @market.startups[i].id %>"><%= @market.startups[i].name %></a></p>
-  
+<p><a href="/startups/<%= @market.startups[i].id %>"><%= @market.startups[i].name %></a> 
+
+  <form method="POST" action='/startup_users/create/<%= @market.startups[i].id %>'><input type="submit" value="Endorse" name="id"/> 
+  <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+  <input name="market_id" type="hidden" value="<%= @market.id %>">
+  </form>
+</p>
+  <% end %>
 <% end %>

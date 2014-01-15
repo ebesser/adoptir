@@ -7,7 +7,6 @@ class MarketsController < ApplicationController
   def show
     market_selected = params[:market_id]
     @market = Market.find(market_selected)
-
   end
 
 end
