@@ -1,7 +1,35 @@
-<h1><%= @startup.name %></h1>
-<img src="<%= @startup.logo_url %>" />
-<p><a href="<%= @startup.company_url %>">Company Website</a></p>
-<p>Angellist Followers: <%= @startup.follower_count%></p>
-<p><a href="<%= @startup.angellist_url %>">Angelist Profile</a></p>
-<p>Market: <%= @startup.market.name %></p>
+<div class="row">
+  <div class="large-1 columns"></div>
+  <h1 class="large-12 columns"><%= @startup.name %></h1>
+</div>
+</br>
+
+<div class="row">
+  <div class="large-3 columns">
+<img src="<%= @startup.logo_url %>" /></br></br>
+<p><a href="<%= @startup.company_url %>" target="_blank">Company Website</a></br>
+Angellist Followers: <%= @startup.follower_count%></br>
+<a href="<%= @startup.angellist_url %>" target="_blank">Angelist Profile</a></br>
+Market: <%= @startup.market.name %></p>
+</div>
+<div class="large-9 columns">
 <p><%= @startup.product_desc %></p>
+
+</div>
+ <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'adoptir'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+</div>
+
