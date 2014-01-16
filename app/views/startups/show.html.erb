@@ -1,12 +1,28 @@
 <div class="row">
-  <div class="large-1 columns"></div>
   <h1 class="large-12 columns"><%= @startup.name %></h1>
 </div>
 </br>
 
 <div class="row">
   <div class="large-3 columns">
-    <img src="<%= @startup.logo_url %>" /></br></br>
+    <img src="<%= @startup.logo_url %>" />
+
+    <div style="margin-left:5px;" class="row">
+      <% if current_user.startups.include? @startup %>
+      <div class="endorse"> 
+          <form method="POST" action='/startup_users/startup_unendorse/<%= @startup.id %>'>   <input class="button" id="unendorsebutton" type="submit" value="Unendorse" name="id"/>
+            <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+         </form>
+        </div>
+      <% else %>
+        <div class="endorse"> 
+          <form method="POST" action='/startup_users/startup_endorse/<%= @startup.id %>'><input class="button" type="submit" value="Endorse" name="id"/>
+            <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+           </form>
+        </div>
+      <% end %>
+    </div>
+
     <p><a href="<%= @startup.company_url %>" target="_blank">Company Website</a></br>
     Angellist Followers: <%= @startup.follower_count%></br>
     <a href="<%= @startup.angellist_url %>" target="_blank">Angelist Profile</a></br>
