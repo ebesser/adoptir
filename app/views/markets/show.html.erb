@@ -1,5 +1,7 @@
-<h1><%= @markets[@market_selected.to_i - 1].name %></h1>
-<h4>Most Followed Startups</h4>
+<div style="margin-left:20px;">
+  <h1><%= @markets[@market_selected.to_i - 1].name %></h1>
+  <h4>Most Followed Startups</h4>
+</div>
 <div class="flickr_pagination">
     <%= will_paginate @market, :container => false %>
   </div></br>

@@ -1,5 +1,7 @@
 <div class ="row">
-  <h1 class="small-10 large-centered columns">Select An Industry You're Interested In</h1>
+  <h1 class="small-10 large-centered columns">
+    Select An Industry You're Interested In
+  </h1>
 </div>
 
 <div class ="row">
@@ -7,14 +9,36 @@
       <form action='/markets/show' method='get'>
       <select name="market_id">
         <% @markets.each do |name| %>
-        <option value="<%= name.id %>"><%= name.name %></option>
+          <option value="<%= name.id %>">
+            <%= name.name %>
+          </option>
         <% end %>
       </select>
-     <div class="small-2 large-centered columns"><button id="go">Go</button></div>
+        <div class="small-2 large-centered columns">
+          <button id="go">Go</button>
+        </div>
       </form>
     </div>
   </div>
 
 <hr>
+<div style="background-color: #EAEEEF; height:570px;">
+  <div>
+    <div class="row">
+      <h2 style="text-align:center; font-weight:bold; margin-top:20px;">
+        How It Works
+      </h2>
+  </div>
 
-<h1 style="text-align:center; font-weight:bold;">How It Works</h1>
+<ul style="text-align:center; margin-top:50px;" class="small-block-grid-3">
+  <li><h3>Discover New Startups</h3></li>
+  <li><h3>Endorse The Ones You Love</h3></li>
+  <li><h3>Review The Ones You've Tried</h3></li>
+</ul>
+
+  <div class="row" style="margin-top:50px;">
+    <div class="large-12 columns">
+      <img src="<%= asset_path( 'featured.png' ) %>"/>
+    </div>
+  </div>
+</div>  
