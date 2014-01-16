@@ -5,9 +5,6 @@ class UsersController < ApplicationController
    
   end
 
-  def endorsements
-
-  end
 
 
 

@@ -1,9 +1,7 @@
+<h1><%= @startup.name %></h1>
 <img src="<%= @startup.logo_url %>" />
-<p><%= @startup.name %></p>
-<p><a href="<%= @startup.company_url %>">Website</a></p>
-<p><%= @startup.follower_count%></p>
-<p><a href="<%= @startup.twitter_url %>">Twitter</p>
-<p><a href="<%= @startup.crunchbase_url %>">Crunchbase Profile</a></p>
+<p><a href="<%= @startup.company_url %>">Company Website</a></p>
+<p>Angellist Followers: <%= @startup.follower_count%></p>
 <p><a href="<%= @startup.angellist_url %>">Angelist Profile</a></p>
 <p>Market: <%= @startup.market.name %></p>
 <p><%= @startup.product_desc %></p>
