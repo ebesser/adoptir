@@ -1,4 +1,5 @@
-<h1><%= @market.name %></h1>
+<h1><%= @markets[@market_selected.to_i].name %></h1>
+<h4>Most Favorited Startups</h4>
 <% @market.size.times do |i| %>
     <div class="logos">
       <a href="/startups/<%= @market[i].id %>"><img class="logo_image" src="<%= @market[i].logo_url %>"></a></br>
