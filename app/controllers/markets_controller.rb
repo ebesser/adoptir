@@ -8,7 +8,7 @@ class MarketsController < ApplicationController
     @markets = Market.all
     @market_selected = params[:market_id]
     # @market = Market.find(@market_selected).startups.order("follower_count DESC")
-    @market = Market.find(@market_selected).startups.order("follower_count DESC").paginate(:page => params[:page], :per_page => 9)
+    @market = Market.find(@market_selected).startups.order("follower_count DESC").paginate(:page => params[:page], :per_page => 8)
   end
 
 

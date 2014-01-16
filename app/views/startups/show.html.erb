@@ -6,16 +6,22 @@
 
 <div class="row">
   <div class="large-3 columns">
-<img src="<%= @startup.logo_url %>" /></br></br>
-<p><a href="<%= @startup.company_url %>" target="_blank">Company Website</a></br>
-Angellist Followers: <%= @startup.follower_count%></br>
-<a href="<%= @startup.angellist_url %>" target="_blank">Angelist Profile</a></br>
-Market: <%= @startup.market.name %></p>
-</div>
+    <img src="<%= @startup.logo_url %>" /></br></br>
+    <p><a href="<%= @startup.company_url %>" target="_blank">Company Website</a></br>
+    Angellist Followers: <%= @startup.follower_count%></br>
+    <a href="<%= @startup.angellist_url %>" target="_blank">Angelist Profile</a></br>
+  </div>
 <div class="large-9 columns">
-<p><%= @startup.product_desc %></p>
-
+    <p><%= @startup.product_desc %></p>
 </div>
+
+<div class="row"></div>
+<div class="row">
+    <hr>
+  <h2 class="question">What Do You Think About <%= @startup.name %>?
+  </h2>
+</div>
+
  <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -30,6 +36,6 @@ Market: <%= @startup.market.name %></p>
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    
-</div>
+    </div>
+
 

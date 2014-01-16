@@ -1,6 +1,8 @@
 <h1><%= @markets[@market_selected.to_i].name %></h1>
 <h4>Most Followed Startups</h4>
-<div><%= will_paginate @market, :page_links => false %></div>
+<div class="flickr_pagination">
+    <%= will_paginate @market, :container => false %>
+  </div></br>
 <% @market.size.times do |i| %>
     <div class="logos">
       <a href="/startups/<%= @market[i].id %>"><img class="logo_image" src="<%= @market[i].logo_url %>"></a></br>
@@ -14,5 +16,6 @@
     </form>
     </div>
 <% end %>
+
 
 
