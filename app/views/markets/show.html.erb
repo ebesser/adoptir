@@ -1,17 +1,13 @@
 <h1><%= @market.name %></h1>
-<% @market.startups.size.times do |i| %>
-<% if @market.startups[i].name == nil %>
-<% else %>
-
+<% @market.size.times do |i| %>
     <div class="logos">
-      <a href="/startups/<%= @market.startups[i].id %>"><img class="logo_image" src="<%= @market.startups[i].logo_url %>"></a></br>
-      <a href="/startups/<%= @market.startups[i].id %>"><%= @market.startups[i].name %></a>
+      <a href="/startups/<%= @market[i].id %>"><img class="logo_image" src="<%= @market[i].logo_url %>"></a></br>
+      <a href="/startups/<%= @market[i].id %>"><%= @market[i].name %></a>
      <div class="endorse"> 
-      <form method="POST" action='/startup_users/create/<%= @market.startups[i].id %>'><input class="button" type="submit" value="Endorse" name="id"/>
+      <form method="POST" action='/startup_users/create/<%= @market[i].id %>'><input class="button" type="submit" value="Endorse" name="id"/>
         <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
-        <input name="market_id" type="hidden" value="<%= @market.id %>" />
+        <input name="market_id" type="hidden" value="<%= @market_selected %>" />
        </div>
     </form>
     </div>
-  <% end %>
 <% end %>

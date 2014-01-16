@@ -5,8 +5,9 @@ class MarketsController < ApplicationController
   end
 
   def show
-    market_selected = params[:market_id]
-    @market = Market.find(market_selected)
+    @markets = Market.all
+    @market_selected = params[:market_id]
+    @market = Market.find(@market_selected).startups.order("follower_count DESC")
   end
 
 end
