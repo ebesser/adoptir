@@ -1,7 +1,7 @@
 AdoptirV1::Application.routes.draw do
   devise_for :users
 
-   root to: "markets#index"
+   root to: 'markets#index'
 
    resources :startups
 

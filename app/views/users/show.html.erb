@@ -7,7 +7,7 @@
 <div class="row">
   <div class="large-4 columns">
     <img class="user_picture" src="<%= current_user.picture %>">
-   <h5>Email: <%= current_user.email %></h5>
+   <h5>Email: <a href="mailto:<%= current_user.email %>"><%= current_user.email %></a></h5
     <h5>Works @<%= current_user.work %></h5>
   </div>
       <div class="large-8 columns">
