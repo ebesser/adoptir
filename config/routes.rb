@@ -15,6 +15,6 @@ AdoptirV1::Application.routes.draw do
 
    post '/startup_users/create/:id', to: 'startup_users#create'
 
-
+   post '/startup_users/delete/:id', to: 'startup_users#delete'
 
 end

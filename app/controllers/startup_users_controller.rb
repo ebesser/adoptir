@@ -11,4 +11,14 @@ class StartupUsersController < ApplicationController
     redirect_to "/markets/show?market_id=#{startup.market_id}"
   end
 
+  def delete
+    
+    startup = params[:id]
+
+    startup_user = StartupUser.where("user_id=#{current_user.id} AND startup_id=#{startup}")
+  
+    startup_user.destroy
+
+  end
+
 end
