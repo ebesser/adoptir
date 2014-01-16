@@ -39,6 +39,14 @@ select {
   margin-top: 10px;
 }
 
+.unendorse {
+  margin-top: 10px;
+}
+
+#unendorsebutton {
+  background-color: red;
+}
+
 .user_picture {
   height: 300px;
   width: 250px;
