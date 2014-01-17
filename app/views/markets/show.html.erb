@@ -1,13 +1,17 @@
 <div style="margin-left:20px;">
   <h1><%= @markets[@market_selected.to_i - 1].name %></h1>
-  <h4>Most Followed Startups</h4>
+    <h4>Most Followed Startups</h4>
 </div>
 <div class="flickr_pagination">
-    <%= will_paginate @market, :container => false %>
-  </div></br>
+  <%= will_paginate @market, :container => false %>
+</div>
+
+</br>
+
 <% @market.size.times do |i| %>
     <div class="logos">
-      <a href="/startups/<%= @market[i].id %>"><img class="logo_image" src="<%= @market[i].logo_url %>"></a></br>
+      <a href="/startups/<%= @market[i].id %>"><img class="logo_image" src="<%= @market[i].logo_url %>"></a>
+    </br>
       <a href="/startups/<%= @market[i].id %>"><%= @market[i].name %></a></br>
       Followers: <%= @market[i].follower_count %>
       
@@ -16,15 +20,15 @@
         <form method="POST" action='/startup_users/delete/<%= @market[i].id %>'><input class="button" id="unendorsebutton" type="submit" value="Unendorse" name="id"/>
           <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
           <input name="market_id" type="hidden" value="<%= @market_selected %>" />
-           </form>
-          </div>
+         </form>
+      </div>
       <% else %>
        <div class="endorse"> 
         <form method="POST" action='/startup_users/create/<%= @market[i].id %>'><input class="button" type="submit" value="Endorse" name="id"/>
           <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
           <input name="market_id" type="hidden" value="<%= @market_selected %>" />
         </form>
-    </div>
+       </div>
       <% end %>
     </div>
 <% end %>

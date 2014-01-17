@@ -4,6 +4,12 @@ Discover, Endorse, and Review your favorite startups.
 
 [adoptir](http://serene-refuge-8248.herokuapp.com/)
 
+
+##Product Description
+With so many new products and ventures arising across the country and the world, adoptir helps users find new things to try, review their experiences, and endorse the ones they love.
+
+This product is my first project built on RoR.
+
 ##Gems and API's Used
 
 - Angellist API

@@ -2,6 +2,7 @@
   <div class="large-1 columns"></div>
   <h1 class="large-12 columns">Your Endorsements</h1>
 </div>
+
 </br>
 
 <div class="row">
@@ -14,17 +15,17 @@
         <% current_user.startups.size.times do |i| %>
           <% if current_user.startups[i].name == nil %>
           <% else %>
-        <div class="user_endorsement_logo">
-          <a href="/startups/<%= current_user.startups[i].id %>"><img class="logo_image" src="<%= current_user.startups[i].logo_url %>"></a></br>
-          <a href="/startups/<%= current_user.startups[i].id %>"><%= current_user.startups[i].name %></a>
+            <div class="user_endorsement_logo">
+              <a href="/startups/<%= current_user.startups[i].id %>"><img class="logo_image" src="<%= current_user.startups[i].logo_url %>"></a></br>
+              <a href="/startups/<%= current_user.startups[i].id %>"><%= current_user.startups[i].name %></a>
            <div class="endorse"> 
-        <form method="POST" action='/startup_users/profile_delete/<%= current_user.startups[i].id %>'><input class="button" id="unendorsebutton" type="submit" value="Unendorse" name="id"/>
-          <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
-           </form>
-          </div>
-         </div>
-          <% end %>
-        <% end %>
-       </div>
-  </div>
+              <form method="POST" action='/startup_users/profile_delete/<%= current_user.startups[i].id %>'><input class="button" id="unendorsebutton" type="submit" value="Unendorse" name="id"/>
+                <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+              </form>
+              </div>
+           </div>
+              <% end %>
+            <% end %>
+     </div>
+</div>
 
