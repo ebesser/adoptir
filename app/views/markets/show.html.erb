@@ -23,9 +23,9 @@
         <form method="POST" action='/startup_users/create/<%= @market[i].id %>'><input class="button" type="submit" value="Endorse" name="id"/>
           <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
           <input name="market_id" type="hidden" value="<%= @market_selected %>" />
-    </form>
+        </form>
     </div>
-    <% end %>
+      <% end %>
     </div>
 <% end %>
 
