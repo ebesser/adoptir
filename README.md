@@ -2,7 +2,7 @@
 
 Discover, Endorse, and Review your favorite startups.
 
-[adoptir](http://serene-refuge-8248.herokuapp.com/)
+[adoptir](http://adoptir.herokuapp.com/)
 
 
 ##Product Description
